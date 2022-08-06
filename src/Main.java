@@ -9,7 +9,7 @@ public class Main {
         }
 
         System.out.println();
-        int maxSales = salesManager.max();
-        System.out.println("Максимальный объем продаж за эти полгода: " + maxSales + " руб.");
+        int cutAverageSales = salesManager.cutAverage();
+        System.out.println("Обрезанное среднее объема продаж за эти полгода: " + cutAverageSales + " руб.");
     }
 }
