@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int[] sales = {150_000, 125_000, 256_500, 95_900, 187_300, 130_000};
+        long[] sales = {150_000, 125_000, 256_500, 95_900, 187_300, 130_000};
         SalesManager salesManager = new SalesManager(sales);
 
         System.out.println("Объемы продаж за полгода:");
@@ -9,7 +9,7 @@ public class Main {
         }
 
         System.out.println();
-        int maxSales = salesManager.max();
+        long maxSales = salesManager.max();
         System.out.println("Максимальный объем продаж за эти полгода: " + maxSales + " руб.");
     }
 }
